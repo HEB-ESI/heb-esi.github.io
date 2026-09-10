@@ -71,7 +71,7 @@ const EventModal = (props: {
                 <tbody>
                   {afficherLigne(eventAttributes.cours, 'Matière', 'cours')}
                   {afficherLigne(eventAttributes.salles, 'Locaux', 'salles')}
-                  { /*afficherLigne(eventAttributes.profs, 'Professeurs', 'profs')*/ }
+                  {afficherLigne(eventAttributes.profs, 'Professeurs', 'profs')}
                   {afficherLigne(eventAttributes.groupes, 'Groupes', 'groupes')}
 
                   {eventAttributes.type && (
